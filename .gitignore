@@ -1,0 +1,69 @@
+/backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+venv/
+env/
+.venv/
+ENV/
+
+# Django stuff:
+*.sqlite3
+db.sqlite3
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/*.py[cod]
+*/migrations/__pycache__/
+
+# Static files
+staticfiles/
+static/
+media/
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PyCharm
+.idea/
+
+# Test reports
+.coverage
+htmlcov/
+
+# MyPy cache
+.mypy_cache/
+
+# pytype static type analyzer
+.pytype/
+
+# VS Code settings
+.vscode/
+
+# Coverage reports
+.coverage
+coverage.xml
+
+# pytest cache
+.pytest_cache/
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# local env files (if any)
+.local/
